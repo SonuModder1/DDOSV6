@@ -1,4 +1,4 @@
-# CCATK-V1
+# V6
 
 使用socks4 / 5代理攻击http服务器的脚本。
 
@@ -30,7 +30,7 @@
 ## 安装
 
     pip3 install requests pysocks
-    git clone https://github.com/BlueSkyXN/CCATK.git
+    git clone https://github.com/SonuModder1/DDOSV6
     cd CCATK
 
 ## 使用
@@ -62,7 +62,7 @@
 ## 安装
 
     pip3 install requests pysocks
-    git clone https://github.com/BlueSkyXN/CCATK.git
+    git clone https://github.com/SonuModder1/DDOSV6
     cd CCATK
 
 ## 使用
