@@ -31,14 +31,14 @@
 
     pip3 install requests pysocks
     git clone https://github.com/SonuModder1/DDOSV6
-    cd CCATK
+    cd DDOSV6
 
 ## 使用
 
     python3 atk.py
 
 
-#CCATK-V2
+# DDOSV6
 
 使用socks4 / 5代理攻击http（s）服务器的脚本。
 
@@ -63,7 +63,7 @@
 
     pip3 install requests pysocks
     git clone https://github.com/SonuModder1/DDOSV6
-    cd CCATK
+    cd DDOSV6
 
 ## 使用
 
