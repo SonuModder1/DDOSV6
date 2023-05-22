@@ -575,7 +575,7 @@ def downloadsocks(choice):
 		except:
 			pass
 		try:
-			r = requests.get("https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt",timeout=5)
+			r = requests.get("https://www.proxy-list.download/api/v1/get?type=socks4",timeout=5)
 			f.write(r.content)
 		except:
 			pass
@@ -617,7 +617,7 @@ def downloadsocks(choice):
 		except:
 			pass
 		try:
-			r = requests.get("https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt",timeout=5)
+			r = requests.get("https://www.proxy-list.download/api/v1/get?type=socks5",timeout=5)
 			f.write(r.content)
 		except:
 			pass
@@ -639,7 +639,7 @@ def downloadsocks(choice):
 			f.close()
 		print("> Have already downloaded socks5 list as socks5.txt")
 def prevent():
-	if '.Sonu' in url :
+	if '.gov' in url :
 		print("> You can't attack .gov website!")
 		exit()
 	
