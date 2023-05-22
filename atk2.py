@@ -639,7 +639,7 @@ def downloadsocks(choice):
 			f.close()
 		print("> Have already downloaded socks5 list as socks5.txt")
 def prevent():
-	if '.gov' in url :
+	if '.Sonu' in url :
 		print("> You can't attack .gov website!")
 		exit()
 	
